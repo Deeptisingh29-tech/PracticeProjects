@@ -1,0 +1,13 @@
+img{
+    /* margin: 0 auto; */
+    display: block;
+    margin: auto;
+    height: 500px;
+    width: auto;
+}
+h2{
+    text-align: center;
+    color: seagreen;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
