@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.010">
+  <properties />
+  
+  
+            <testcase name="testmethod" time="0.009" classname="testngexample.TestDetails1" />
+                <testcase name="testmethod1" time="0.001" classname="testngexample.TestDetails1" />
+      
+</testsuite>
