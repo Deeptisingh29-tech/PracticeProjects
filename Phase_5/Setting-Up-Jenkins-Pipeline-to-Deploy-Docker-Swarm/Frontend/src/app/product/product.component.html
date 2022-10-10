@@ -1,0 +1,17 @@
+<div>
+    <table border="1px">
+        <tr>
+            <th>PID</th>
+            <th>PName</th>
+            <th>Price</th>
+            <th>Url</th>
+        </tr>
+        <tr *ngFor="let p of products">
+            <td>{{p.pid}}</td>
+            <td>{{p.pname}}</td>
+            <td>{{p.price}}</td>
+            <td><img src="{{p.url}}" style="height: 100px; width: 100px;"></td>
+
+        </tr>
+    </table>
+</div>

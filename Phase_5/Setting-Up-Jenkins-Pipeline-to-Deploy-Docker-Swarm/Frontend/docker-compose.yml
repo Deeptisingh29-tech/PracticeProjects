@@ -1,0 +1,18 @@
+version: "3"
+services:
+  product-backend:
+    image: ds29/product-backend:1.0
+    ports:
+      - "8484:8484"
+    networks:
+      - product-management-system
+  product-frontend:
+    image: ds29/product-frontend:2.0
+    ports:
+      - "80:80"
+    depends_on:
+      - product-backend
+    networks:
+      - product-management-system
+networks:
+  product-management-system:  
